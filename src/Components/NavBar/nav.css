@@ -1,0 +1,10 @@
+ul > li > a {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+ul > li > a.active {
+  text-decoration-line: underline;
+  color: #ff444a;
+  width: 150px;
+}
