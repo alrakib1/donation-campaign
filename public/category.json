@@ -45,28 +45,17 @@
   },
   {
     "id": 5,
-    "picture": "https://i.ibb.co/7Ym53vT/Health.png",
-    "title": "Clean water for children",
-    "category": "Health",
-    "category_bg_color": "#0052FF33",
-    "card_bg_color": "#0052FF26",
-    "text_color": "#0052FF",
-    "description": "Clean water is a fundamental necessity for children's health and well-being. Access to safe, uncontaminated water ensures that they can stay hydrated, prevent waterborne diseases, and thrive. It's a lifeline for their growth, providing a foundation for a brighter future. Every child deserves the basic human right to clean water, and ensuring its availability is crucial for their happiness and development.",
+    "picture": "https://i.ibb.co/19CBwJN/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg_color": "#F8714726",
+    "card_bg_color": "#F8714726",
+    "text_color": "#F87147",
+    "description": "'Better Food for Everyone' signifies a universal commitment to enhancing access to nutritious and sustainable food. It's a collective effort to improve food production, distribution, and affordability, ensuring that people of all backgrounds can enjoy healthier meals. This initiative addresses food insecurity, promotes responsible agriculture, and fosters a future where everyone can savor the benefits of a well-balanced diet, leading to improved well-being and a more equitable world.",
     "price": 290
   },
   {
     "id": 6,
-    "picture": "https://i.ibb.co/jLLS7yY/Education.png",
-    "title": "Good education",
-    "category": "Education",
-    "category_bg_color": "#FF444933",
-    "card_bg_color": "#FF444926",
-    "text_color": "#FF444A",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": 290
-  },
-  {
-    "id": 7,
     "picture": "https://i.ibb.co/Z6DxSzz/Clothing.png",
     "title": "Used Clothing Drive",
     "category": "Clothing",
@@ -77,14 +66,25 @@
     "price": 290
   },
   {
+    "id": 7,
+    "picture": "https://i.ibb.co/jLLS7yY/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg_color": "#FF444933",
+    "card_bg_color": "#FF444926",
+    "text_color": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": 290
+  },
+  {
     "id": 8,
-    "picture": "https://i.ibb.co/19CBwJN/Food.png",
-    "title": "Better Food for Everyone",
-    "category": "Food",
-    "category_bg_color": "#F8714726",
-    "card_bg_color": "#F8714726",
-    "text_color": "#F87147",
-    "description": "'Better Food for Everyone' signifies a universal commitment to enhancing access to nutritious and sustainable food. It's a collective effort to improve food production, distribution, and affordability, ensuring that people of all backgrounds can enjoy healthier meals. This initiative addresses food insecurity, promotes responsible agriculture, and fosters a future where everyone can savor the benefits of a well-balanced diet, leading to improved well-being and a more equitable world.",
+    "picture": "https://i.ibb.co/7Ym53vT/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg_color": "#0052FF33",
+    "card_bg_color": "#0052FF26",
+    "text_color": "#0052FF",
+    "description": "Clean water is a fundamental necessity for children's health and well-being. Access to safe, uncontaminated water ensures that they can stay hydrated, prevent waterborne diseases, and thrive. It's a lifeline for their growth, providing a foundation for a brighter future. Every child deserves the basic human right to clean water, and ensuring its availability is crucial for their happiness and development.",
     "price": 290
   },
   {

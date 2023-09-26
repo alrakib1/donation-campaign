@@ -6,10 +6,14 @@ import Root from "./Components/Root/Root";
 import Home from "./Components/Home/Home";
 import Donation from "./Components/Donation/Donation";
 import Stats from "./Components/Stats/Stats";
+
+import Details from "./Components/Home/Details/Details";
+import ErrorPage from "./Components/Error/ErrorPage";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement : <ErrorPage></ErrorPage>,
     children : [
       {
         path : '/',
@@ -22,6 +26,11 @@ const router = createBrowserRouter([
       {
         path : '/statistics',
         element : <Stats></Stats>
+      },
+      {
+        path : '/details/:id',
+        element : <Details></Details>,
+        loader : ()=> fetch('../public/category.json'),
       }
     ]
   },
