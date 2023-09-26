@@ -8,7 +8,7 @@ const Nav = () => {
             <img src="../../../src/assets/Logo.png" alt=""/>
         </div>
         <div>
-        <ul className="flex gap-6 mr-10">
+        <ul className="flex gap-6">
             <li>
               <NavLink to='/'>Home</NavLink>
             </li>

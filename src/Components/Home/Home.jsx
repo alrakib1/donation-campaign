@@ -1,8 +1,9 @@
+import Search from "../Search Bar/Search";
 
 const Home = () => {
     return (
         <div>
-            <h3>this is home page</h3>
+            <Search></Search>
         </div>
     );
 };
