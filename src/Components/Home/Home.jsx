@@ -32,7 +32,7 @@ const handleSearch = () => {
   return (
     <div>
       <div className="text-center container mx-auto">
-        <h3 className="text-3xl md:text-5xl font-bold mt-20 mb-10">
+        <h3 className="text-3xl lg:text-5xl font-bold mt-20 mb-10">
           I Grow By Helping People In Need
         </h3>
         <section className="bg-cover bg-center" style={{ backgroundImage: "url('your-image-url.jpg')" }}>

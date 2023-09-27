@@ -5,7 +5,7 @@ const Nav = () => {
     <div>
       <div className="max-w-7xl mx-auto flex flex-col gap-5 md:flex-row justify-between items-center mt-12">
         <div>
-            <img src="../../../src/assets/Logo.png" alt=""/>
+            <img src="https://i.ibb.co/2hrqdbC/Logo.png" alt=""/>
         </div>
         <div>
         <ul className="flex gap-6">

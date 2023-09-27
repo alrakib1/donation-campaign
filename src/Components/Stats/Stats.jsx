@@ -1,10 +1,8 @@
-import React from "react";
 import {
   Cell,
   Legend,
   Pie,
   PieChart,
-  ResponsiveContainer,
   Tooltip,
 } from "recharts";
 import { useDonationLength } from "../Donation/DonationLength";
@@ -25,7 +23,7 @@ const Stats = () => {
   return (
     <div>
       <div className="mx-auto flex flex-col justify-center items-center mt-20">
-        <h2>Donation Statistics</h2>
+        <h2 className="text-center text-4xl font-bold">Donation Statistics</h2>
         <PieChart width={200} height={400}>
           <Pie
             data={data}
