@@ -5,7 +5,7 @@ import "./index.css";
 import Root from "./Components/Root/Root";
 import Home from "./Components/Home/Home";
 import Donation from "./Components/Donation/Donation";
-import Stats from "./Components/Stats/Stats";
+import Stats from "./Components/Stats/Stats.jsx";
 
 import Details from "./Components/Home/Details/Details";
 import ErrorPage from "./Components/Error/ErrorPage";

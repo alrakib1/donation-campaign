@@ -8,7 +8,6 @@ const Details = () => {
   const details = useLoaderData();
   const [detail, setDetail] = useState({});
   const { picture, title, description, price, text_color } = detail;
-  console.log(detail);
 
   useEffect(() => {
     const findDetail = details?.find((detail) => detail.id === parseInt(id));
@@ -23,14 +22,14 @@ const Details = () => {
       localStorage.setItem("donation", JSON.stringify(addedDonation));
       toast("Thanks For Your Donation");
     } else {
-        const isExists = donations.find(donate=>donate.id==id)
-        if(!isExists){
-          addedDonation.push(...donations, detail);
+      const isExists = donations.find((donate) => donate.id == id);
+      if (!isExists) {
+        addedDonation.push(...donations, detail);
         localStorage.setItem("donation", JSON.stringify(addedDonation));
-      toast("Thanks For Your Donation");
-        }else{
-          toast('Already Donated Here') 
-        }
+        toast("Thanks For Your Donation");
+      } else {
+        toast("Already Donated Here");
+      }
     }
   };
   return (
@@ -54,8 +53,10 @@ const Details = () => {
             </div>
           </div>
           <div className="md:w-[600px] lg:w-[1000px] mx-auto mt-12">
-            <h3 className="mb-6 text-3xl md:text-4xl font-bold">{title}</h3>
-            <p className="mb-24 text-[#0B0B0BB3] font-normal text-base">
+            <h3 className="mb-6 text-3xl md:text-4xl font-bold ml-3 md:ml-0">
+              {title}
+            </h3>
+            <p className="mb-24 text-[#0B0B0BB3] font-normal text-base  ml-3 md:ml-0">
               {description}
             </p>
           </div>

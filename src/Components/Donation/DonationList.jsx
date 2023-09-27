@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 
 const DonationList = ({ d }) => {
-  const {id,
+  const {
+    id,
     picture,
     title,
     category,
     text_color,
     card_bg_color,
     category_bg_color,
-    price
+    price,
   } = d;
-  console.log(d);
   return (
     <div>
       <div style={{ backgroundColor: card_bg_color }}>
@@ -24,8 +24,20 @@ const DonationList = ({ d }) => {
               {category}
             </p>
             <p className="text-xl font-semibold ml-5 mt-3">{title}</p>
-            <p className="text-base font-semibold ml-5 mt-2" style={{color: text_color}}>${price}</p>
-            <Link to={`/details/${id}`}><button className="p-1 rounded mt-2 normal-case ml-5 text-white border-0 mb-4" style={{backgroundColor:text_color}}>View Details</button></Link>
+            <p
+              className="text-base font-semibold ml-5 mt-2"
+              style={{ color: text_color }}
+            >
+              ${price}
+            </p>
+            <Link to={`/details/${id}`}>
+              <button
+                className="p-1 rounded mt-2 normal-case ml-5 text-white border-0 mb-4"
+                style={{ backgroundColor: text_color }}
+              >
+                View Details
+              </button>
+            </Link>
           </div>
         </div>
       </div>

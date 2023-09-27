@@ -5,16 +5,14 @@ import DonationList from "./DonationList";
 const Donation = () => {
   const [donation, setDonation] = useState([]);
   const [dataLength, setDataLength]= useState(4);
-
   useEffect(() => {
     const donations = JSON.parse(localStorage.getItem("donation"));
     if (donations) {
       setDonation(donations);
     } else {
-      console.log('no data found');
+      // console.log('no data found');
     }
   }, []);
-
   return (
     <div>
       <div className="grid lg:grid-cols-2 gap-10 container mx-auto mt-20">
